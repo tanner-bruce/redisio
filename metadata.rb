@@ -34,3 +34,4 @@ recipe 'redisio::disable_os_default', 'This recipe is used to disable the defaul
 
 depends 'ulimit', '>= 0.1.2'
 depends 'build-essential'
+depends 'selinux_policy'
